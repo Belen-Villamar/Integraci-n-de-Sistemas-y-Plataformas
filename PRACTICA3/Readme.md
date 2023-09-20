@@ -9,12 +9,12 @@
 * VILLAMAR ALCÍVAR MARÍA BELÉN
 
 ### Test and DockerHub push
-![Alt text](test_local.jpg)
+![Alt text](test_local.JPG)
 
-![Alt text](build_image.jpg)
+![Alt text](build_image.JPG)
 
-![Alt text](change_name.jpg)
+![Alt text](change_name.JPG)
 
-![Alt text](dockerhub_push.jpg)
+![Alt text](dockerhub_push.JPG)
 
-![Alt text](build_multiplatform.jpg)
+![Alt text](build_multiplatform.JPG)
