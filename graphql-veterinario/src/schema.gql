@@ -1,0 +1,32 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Veterinario {
+  id_veterinaria: String!
+  nombre_veterinaria: String!
+  active: Boolean!
+}
+
+type Query {
+  veterinarios: [Veterinario!]!
+  veterinario(id: ID!): Veterinario!
+}
+
+type Mutation {
+  createVeterinario(createVeterinarioDto: CreateVeterinarioDto!): Veterinario!
+  updateVeterinario(id: ID!, updateVeterinarioDto: UpdateVeterinarioDto!): Veterinario!
+  removeVeterinario(id: ID!): Veterinario!
+  updateAllActiveVet: Veterinario!
+}
+
+input CreateVeterinarioDto {
+  id_veterinaria: String!
+  nombre_veterinaria: String!
+  nombre_veterinario: String!
+  id_apellido_veterinario: String!
+}
+
+input UpdateVeterinarioDto {
+  fecha_veterinario: String!
+}
